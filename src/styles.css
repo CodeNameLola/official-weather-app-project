@@ -1,2 +1,13 @@
+.weather-section {
+  list-style: none;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ff3266;
+  border-radius: 12px;
+}
 
-
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
