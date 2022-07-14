@@ -20,18 +20,19 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap"
       rel="stylesheet"
     />
-    <title>Weather app draft</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
+    <title>Weather app draft</title>
   </head>
   <body>
     <div class="container">
       <div class="weather-wrapper">
         <div class="weather-section">
           <div class="overview">
-            <h1>Baltimore</h1>
+            <h1 id="city"></h1>
             <ul>
               <li>Monday 03:00</li>
-              <li>Sunny</li>
+              <li id="description"></li>
             </ul>
           </div>
           <div class="row">
@@ -49,16 +50,15 @@
                   </div>
                 </div>
                 <div class="float-left">
-                  <strong>20</strong
+                  <strong id="temperature"></strong
                   ><span class="units">˚C | <a href="#"> ˚F </a></span>
                 </div>
               </div>
             </div>
             <div class="col-6">
               <ul>
-                <li>Precipitation: 0%</li>
-                <li>Humidity: 73%</li>
-                <li>Wind: 9 km/h</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
               </ul>
             </div>
           </div>
