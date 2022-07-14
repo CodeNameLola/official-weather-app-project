@@ -1,13 +1,66 @@
-.weather-section {
-  list-style: none;
-  max-width: 800px;
-  margin: 30px auto;
-  padding: 20px;
-  border: 1px solid #ff3266;
-  border-radius: 12px;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
-  font-family: "Poppins", sans-serif;
   color: white;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  color: white;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.weather-wrapper {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.weather-section {
+  padding: 20px;
+  border: 1px solid #ff3266;
+  border-radius: 12px;
+  background: rgb(95, 178, 208);
+  background: linear-gradient(
+    8deg,
+    rgba(95, 178, 208, 1) 0%,
+    rgba(183, 219, 233, 1) 100%
+  );
+}
+
+.weather-temperature fa-3x {
+  margin-right: 10px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  line-height: 1;
+  color: white;
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.fa-3x {
+  color: white;
+}
+
+.overview {
+  margin-bottom: 20px;
 }
