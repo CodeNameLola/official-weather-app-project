@@ -13,6 +13,10 @@ ul {
   padding: 0;
 }
 
+li:first-letter {
+  text-transform: capitalize;
+}
+
 li {
   color: white;
   margin: 0;
@@ -20,7 +24,6 @@ li {
   list-style: none;
   line-height: 25px;
   font-size: 15px;
-  text-transform: capitalize;
 }
 
 .weather-wrapper {
