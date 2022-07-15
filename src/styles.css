@@ -28,14 +28,29 @@ li {
 
 img {
   position: relative;
-  right: 20px;
+  right: 1px;
   top: -8px;
   margin-right: 10px;
   width: 100px;
 }
 
+.mag {
+  position: relative;
+  left: -70px;
+  bottom: -2px;
+  font-size: 20px;
+  background-color: transparent;
+  border: transparent;
+}
+
+.mag:hover {
+  background-color: #ff3266;
+  transition: background-color 0.5s;
+  border-radius: 10px;
+}
+
 .weather-wrapper {
-  max-width: 800px;
+  max-width: 600px;
   margin: 30px auto;
 }
 
