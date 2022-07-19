@@ -26,7 +26,7 @@ li {
   font-size: 15px;
 }
 
-img {
+.icon {
   position: relative;
   right: 1px;
   top: -8px;
@@ -62,7 +62,7 @@ img {
   background: linear-gradient(
     8deg,
     rgba(95, 178, 208, 1) 0%,
-    rgba(183, 219, 233, 1) 100%
+    rgba(244, 252, 255, 1) 100%
   );
 }
 
@@ -91,4 +91,23 @@ img {
 
 .overview {
   margin-bottom: 20px;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.weather-forecast-temp-min {
+  opacity: 0.6;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
